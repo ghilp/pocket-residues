@@ -1,2 +1,2 @@
-
+# Description
 This code uses data obtained from CASTp 3.0 to determine which pocket residues are oriented towards the center of a protein. The directory that contains the script must also include the PDB file for the protein of interest and a folder that contains the POC file obtained from CASTp 3.0 (for that same protein) in order for the code to work correctly. The code will output messages noting if the protein was succesfully loaded in PyMOL, how many pocket residues are found in the POC file, and how many of those residues are identified to be facing inward. Additionally, a CSV file will be created in the script directory containing the inward-facing residue numbers and names. 
