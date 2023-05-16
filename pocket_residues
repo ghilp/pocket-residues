@@ -124,7 +124,7 @@ for residue in residue_numbers:
 for residue in residue_list:
     residue_codes.append(residue_dict[residue])
 
-# Create CSV file with final residue list
+# Create .csv file with final residue list
 # Define the header row
 header = ["Residue", "Number"]
 
@@ -133,7 +133,7 @@ rows = [header]
 for code, number in zip(residue_codes, residue_list):
     rows.append([code, number])
 
-# Write the data to a CSV file
+# Write the data to a .csv file
 with open("residues.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(rows)
